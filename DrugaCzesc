@@ -35,7 +35,7 @@ print(a)
 #Zad 6
 d = np.arange(1,7).reshape((2,3))
 b = np.cos(d)
-print(b
+print(b)
 
 #Zad 7
 l = a+b
