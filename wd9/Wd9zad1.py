@@ -35,3 +35,6 @@ df = pd.read_excel(xlsx, header=0)
 #     print(f'Plec: {plec}, Name: {max_i}')
 
 #Zad 3
+df2 = pd.read_csv('zamowienia.csv',header=0, sep=';',decimal='.')
+#print(df2['Sprzedawca'].unique())
+#print(df2.sort_values(by='Utarg',ascending=0).head(5))
